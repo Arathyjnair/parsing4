@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/catnmeee"
+        android:layout_width="341dp"
+        android:layout_height="43dp"
+        android:textSize="10dp"
+        android:visibility="invisible"
+        android:textColor="#000"
+
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/pnme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377" />
+
+    <TextView
+        android:id="@+id/pnme"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:textSize="20dp"
+
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="95dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img11"
+        android:layout_width="230dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pnme"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/costtxt2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img11" />
+
+
+</android.support.constraint.ConstraintLayout>
